@@ -55,7 +55,7 @@ public class CustomerController {
     this.customerService.deleteCustomer(id);
   }
 
-  @GetMapping("/hello"
+  @GetMapping("/hello")
   public String hello(){
     return "Hello World !!";
   }
